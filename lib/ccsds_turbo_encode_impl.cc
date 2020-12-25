@@ -34,6 +34,8 @@
 #define RATE_1_4 4
 #define RATE_1_6 6
 
+using namespace boost::placeholders;
+
 namespace gr {
   namespace dslwp {
 

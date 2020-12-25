@@ -32,6 +32,8 @@ extern "C"
 
 #include <stdio.h>
 
+using namespace boost::placeholders;
+
 namespace gr {
   namespace dslwp {
 

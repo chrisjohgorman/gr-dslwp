@@ -26,6 +26,8 @@
 #include "ccsds_pseudo_randomizer_impl.h"
 #include <stdio.h>
 
+using namespace boost::placeholders;
+
 namespace gr {
   namespace dslwp {
 

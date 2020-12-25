@@ -32,6 +32,8 @@
 #include <gnuradio/io_signature.h>
 #include "kiss_decode_pdu_impl.h"
 
+using namespace boost::placeholders;
+
 namespace gr {
   namespace dslwp {
 

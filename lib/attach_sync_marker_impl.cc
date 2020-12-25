@@ -26,6 +26,8 @@
 #include "attach_sync_marker_impl.h"
 #include <stdio.h>
 
+using namespace boost::placeholders;
+
 namespace gr {
   namespace dslwp {
 

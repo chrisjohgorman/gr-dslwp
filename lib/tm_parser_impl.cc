@@ -38,6 +38,8 @@ extern "C"
 #define sw16(x) (uint16_t)( ( ( ((uint16_t)x) & ((uint16_t)0x00FFU) ) << 8 ) | ( ( ((uint16_t)x) & ((uint16_t)0xFF00U) ) >> 8 ) )
 #define sw32(x) (uint32_t)( ( ( ((uint32_t)x) & ((uint32_t)0x000000FFU) ) << 24 ) | ( ( ((uint32_t)x) & ((uint32_t)0x0000FF00U) ) << 8 ) | ( ( ((uint32_t)x) & ((uint32_t)0x00FF0000U) ) >> 8 ) | ( ( ((uint32_t)x) & ((uint32_t)0xFF000000U) ) >> 24 ) )
 
+using namespace boost::placeholders;
+
 namespace gr {
   namespace dslwp {
 
